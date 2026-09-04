@@ -1,0 +1,14 @@
+.bar { display: flex; align-items: center; gap: var(--space-lg); flex-wrap: wrap; padding: var(--space-md) 0; margin-bottom: var(--space-lg); }
+.sortGroup, .priceGroup { display: flex; align-items: center; gap: var(--space-sm); flex-wrap: wrap; }
+.label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-muted); white-space: nowrap; }
+.select { padding: 6px var(--space-sm); color: var(--color-text); font-size: 0.82rem; cursor: pointer; }
+.priceInputs { display: flex; align-items: center; gap: var(--space-xs); }
+.priceField { display: flex; align-items: center; background: var(--neu-surface); box-shadow: var(--neu-pressed); border-radius: var(--neu-radius-sm); overflow: hidden; }
+.currencySymbol { padding: 0 4px 0 var(--space-sm); font-size: 0.78rem; color: var(--color-text-muted); pointer-events: none; }
+.priceInput { width: 64px; background: transparent; box-shadow: none; padding: 6px var(--space-sm) 6px 0; color: var(--color-text); font-size: 0.82rem; -moz-appearance: textfield; }
+.priceInput::-webkit-outer-spin-button, .priceInput::-webkit-inner-spin-button { -webkit-appearance: none; }
+.priceInput::placeholder { color: var(--color-text-muted); opacity: 0.5; }
+.priceSeparator { font-size: 0.72rem; color: var(--color-text-muted); }
+.clearPrice { font-size: 0.72rem; color: var(--color-text-muted); text-decoration: underline; text-underline-offset: 3px; }
+.clearPrice:hover { color: var(--color-text); }
+.resultCount { font-size: 0.78rem; color: var(--color-text-muted); margin-left: auto; }

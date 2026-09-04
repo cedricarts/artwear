@@ -1,0 +1,11 @@
+.header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--space-lg); padding-bottom: var(--space-md); border-bottom: 1px solid var(--color-border); }
+.heading { font-size: 1rem; font-weight: 500; letter-spacing: 0.1em; }
+.count { font-size: 0.8rem; color: var(--color-text-muted); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-md); }
+@media (min-width: 480px) { .grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); } }
+@media (min-width: 768px) { .grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-lg); } }
+.gate, .empty, .status { display: flex; flex-direction: column; align-items: center; gap: var(--space-md); padding: var(--space-xl); text-align: center; color: var(--color-text-muted); }
+.gateMsg, .emptyMsg { font-size: 0.875rem; }
+.gateLink { color: var(--color-text); text-decoration: underline; text-underline-offset: 3px; }
+.shopLink { font-size: 0.85rem; text-decoration: underline; text-underline-offset: 3px; color: var(--color-text-muted); }
+.shopLink:hover { color: var(--color-text); }

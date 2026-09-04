@@ -1,0 +1,11 @@
+.wrapper { position: relative; width: 100%; }
+.chartContainer { position: relative; width: 100%; }
+.svg { width: 100%; height: auto; display: block; overflow: visible; }
+.tooltip {
+  position: absolute; top: -8px; transform: translateX(-50%); background-color: var(--color-surface);
+  border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: var(--space-xs) var(--space-sm);
+  pointer-events: none; white-space: nowrap; z-index: 10; display: flex; flex-direction: column; gap: 2px;
+}
+.tooltipDate { font-size: 0.68rem; color: var(--color-text-muted); letter-spacing: 0.03em; }
+.tooltipRevenue { font-size: 0.85rem; font-weight: 600; color: var(--color-text); }
+.tooltipOrders { font-size: 0.68rem; color: var(--color-text-muted); }

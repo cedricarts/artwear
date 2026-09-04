@@ -1,0 +1,9 @@
+.badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 999px; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.06em; white-space: nowrap; border: 1px solid transparent; }
+.pending    { background-color: rgba(136,136,136,0.12); border-color: rgba(136,136,136,0.3); color: #888888; }
+.processing { background-color: rgba(196,170,69,0.12); border-color: rgba(196,170,69,0.3); color: #c4aa45; }
+.shipped    { background-color: rgba(74,158,218,0.12); border-color: rgba(74,158,218,0.3); color: #4a9eda; }
+.delivered  { background-color: rgba(74,184,106,0.12); border-color: rgba(74,184,106,0.3); color: #4ab86a; }
+.cancelled  { background-color: rgba(224,85,85,0.12); border-color: rgba(224,85,85,0.3); color: #e05555; }
+.rejected   { background-color: rgba(224,85,85,0.12); border-color: rgba(224,85,85,0.3); color: #e05555; }
+.approved   { background-color: rgba(74,184,106,0.12); border-color: rgba(74,184,106,0.3); color: #4ab86a; }
+.produced   { background-color: rgba(127,119,221,0.12); border-color: rgba(127,119,221,0.3); color: #7f77dd; }

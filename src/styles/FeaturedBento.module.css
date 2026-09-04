@@ -1,0 +1,32 @@
+.wrapper { margin-bottom: var(--space-xl); }
+.heading { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: var(--space-md); }
+
+/* .bentoGrid / .bentoLarge / .bentoWide come from global.css.
+   This module only adds the tile content styling. */
+.grid { grid-auto-rows: 170px; }
+
+.tile {
+  position: relative;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.tile:hover { transform: translateY(-3px); }
+
+.image { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.tile:hover .image { transform: scale(1.05); }
+.imagePlaceholder { width: 100%; height: 100%; background-color: var(--color-surface-2); }
+
+.scrim {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.15) 45%, transparent 70%);
+}
+
+.tileInfo { position: absolute; left: var(--space-sm); bottom: var(--space-sm); right: var(--space-sm); display: flex; flex-direction: column; gap: 2px; }
+.tileName { color: #fff; font-weight: 700; font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tilePrice { color: rgba(255,255,255,0.8); font-size: 0.78rem; }
+
+.soldOutTag {
+  position: absolute; top: var(--space-sm); right: var(--space-sm);
+  background: rgba(224,85,85,0.92); color: #fff; font-size: 0.6rem; font-weight: 600;
+  padding: 3px 8px; border-radius: 999px; letter-spacing: 0.06em;
+}
