@@ -1,6 +1,6 @@
 # ArtWear
 
-Dark-mode streetwear e-commerce platform. React (Vite) + Firebase (Firestore, Auth) + Cloudinary.
+Dark-mode streetwear e-commerce platform. React (Vite) + Firebase (Firestore, Auth) + Cloudinary...
 
 ## Setup
 
